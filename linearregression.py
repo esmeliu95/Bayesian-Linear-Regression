@@ -204,16 +204,6 @@ class Bayesian_LinearRegressor(object):
         return (x_test @ self.m_N)
 
 
-# In[5]:
-
-
-#this function is to do cross_validation
-#according to n_folds
-#and will take the weight that corresponds to
-#the largest average accuracy
-#then I will run the entire set
-#using this weight
-#then to predict the y values
 def cross_validation(train_x,train_y):
     
     
