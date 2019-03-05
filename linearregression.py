@@ -1,17 +1,13 @@
-
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import pandas as pd
 from numpy.linalg import inv
 from matplotlib import pyplot as plt
 import seaborn as sns
+import numpy as np
+from numpy.linalg import inv    
+import random
+from numpy import linalg as LA
 
-
-# In[2]:
 
 
 #Task 0
@@ -91,8 +87,7 @@ def calc_perf_metric__squared_error(y_N, yhat_N):
     mse = np.mean((y_N - yhat_N) ** 2)
     return mse
 
-import numpy as np
-from numpy.linalg import inv    
+
 
 
 class LeastSquaresLinearRegressor(object):
@@ -141,8 +136,7 @@ class LeastSquaresLinearRegressor(object):
 
 
 #task 3
-import random
-from numpy import linalg as LA
+
 
 class Bayesian_LinearRegressor(object):
     
